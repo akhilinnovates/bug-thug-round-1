@@ -85,38 +85,46 @@ p {
 
 label.first-color {
   margin-left: 500px;
-  background-image: url("./images/color1.jpg");
+  /* background-image: url("./images/color1.jpg"); */
+  background-color: #ee9292;
 }
 label.color-3 {
-  background-image: url("./images/color2.jpg");
+  /* background-image: url("./images/color2.jpg"); */
+  background-color: #7b92a6;
+
 }
 label.color-5 {
-  background-image: url("./images/color3.jpg");
+  /* background-image: url("./images/color3.jpg"); */
+  background-color: #a59b94;
 }
 label.color-6 {
-  background-image: url("./images/color4.jpg");
+  /* background-image: url("./images/color4.jpg"); */
+  background-color: #9b9e9d;
 }
 label.color-4 {
-  background-image: url("./images/color5.jpg");
+  /* background-image: url("./images/color5.jpg"); */
+  background-color: #90aabf;
 }
 label.color-2 {
-  background-image: url("./images/color6.jpg");
+  /* background-image: url("./images/color6.jpg"); */
+  background-color: #464646;
+
 }
 
 .img-wrap {
   position: absolute;
   top: 100px;
-  left: 0;
+  left: -50px;
   width: 500px;
   height: 410px;
   display: inline-block;
   z-index: 9;
   transition: all 550ms linear;
   transition-delay: 100ms;
-  background-position: center top;
+  background-position: center center;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-image: url("./images/chair1.png");
+  background-image: url("https://m.media-amazon.com/images/I/71gXgk3mmIL._AC_UF894,1000_QL80_.jpg");
   opacity: 0;
 }
 
@@ -125,35 +133,35 @@ label.color-2 {
   animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 .img-wrap.chair-2 {
-  background-image: url("./images/chair2.png");
+  background-image: url("https://images.pexels.com/photos/11112732/pexels-photo-11112732.jpeg");
 }
 .for-color-2:checked ~ .img-wrap.chair-2 {
   opacity: 1;
   animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 .img-wrap.chair-3 {
-  background-image: url("./images/chair3.png");
+  background-image: url("https://www.hokybo.com/CompanyData/Product/12152/3.jpg?19-02-2022%2011:09:51");
 }
 .for-color-3:checked ~ .img-wrap.chair-3 {
   opacity: 1;
   animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 .img-wrap.chair-4 {
-  background-image: url("./images/chair4.png");
+  background-image: url("https://plus.unsplash.com/premium_photo-1705169700491-c4eeea140f3f?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNpbmdsZSUyMGNoYWlyfGVufDB8fDB8fHww");
 }
 .for-color-4:checked ~ .img-wrap.chair-4 {
   opacity: 1;
   animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 .img-wrap.chair-5 {
-  background-image: url("./images/chair5.png");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-RVLDDMoWFWG5M0Hf0FgCIXmSezV5G7SI_Q&s/chair5.png");
 }
 .for-color-5:checked ~ .img-wrap.chair-5 {
   opacity: 1;
   animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 .img-wrap.chair-6 {
-  background-image: url("./images/chair6.png");
+  background-image: url("https://www.hokybo.com/CompanyData/Product/12MD024TP/4.jpg?19-02-2022%2020:49:31/chair6.png");
 }
 .for-color-6:checked ~ .img-wrap.chair-6 {
   opacity: 1;
