@@ -32,9 +32,12 @@ while game_is_on:
             game_is_on = False
             scoreboard.game_over()
             break
+        else:
+            scoreboard()
         car.move()
 
     time.sleep(0.1)
     screen.update()
 
 screen.exitonclick()
+

@@ -12,3 +12,14 @@ class Player(Turtle):
 
     def up(self):
         self.forward(20)
+        
+     def down(self):
+        self.backward(20)
+        
+    def right(self):
+        self.right(20)
+
+    def left(self):
+        self.left(20)
+
+

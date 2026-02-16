@@ -12,12 +12,12 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 15px;
-  line-height: 1.7;
+  line-height: 2;
   color: #fff;
   background-color: #1f2029;
   min-height: 100vh;
-  margin: 0;
-  padding: 0;
+  margin: 5;
+  padding: 5;
   overflow-x: none;
 }
 
@@ -80,7 +80,7 @@ p {
 
 .color-btn:checked + label {
   border-color: #434343;
-  transform: scale(1.1);
+  transform: scale(2.5);
 }
 
 label.first-color {
@@ -456,4 +456,5 @@ h5 {
   .section-inline p {
     font-size: 14px;
   }
+
 }
